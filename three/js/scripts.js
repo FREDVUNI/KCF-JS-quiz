@@ -1,11 +1,14 @@
-let someArray = [3.0,'a',7,'x','20','d',4,'f',8]
+// let someArray = [3.0,'a',7,'x','20','d',4,'f',8]
+let arrayEven = [2,4,6,8,10]
+let arrayOdd = [1,3,5,7,9]
+let arrayChar =['q','w','e','r','t','y']
 
+let someArray ={
+    evens:[arrayEven],
+    odds:[arrayOdd],
+    chars:[arrayChar],
+}
 function someFunction(someArray){
     console.log(someArray)
-    return someArray
 }
-someFunction({
-    evens:[someArray[6],someArray[8],someArray[4]],
-    odds:[someArray[0],someArray[2]],
-    chars:[someArray[1],someArray[5],someArray[7],someArray[3]],
-})
+someFunction(someArray)
