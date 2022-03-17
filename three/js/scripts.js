@@ -11,4 +11,4 @@ let someArray ={
 function someFunction(someArray){
     console.log(someArray)
 }
-someFunction(someArray)
+someFunction({someArray})
