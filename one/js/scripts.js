@@ -4,16 +4,16 @@ function fizzBuzz(firstname,lastname){
         let nameLength = name.length
         // console.log(nameLength)
         if(nameLength % 3 === 0 && nameLength % 5 === 0){
-            // alert("FizzBuzz")
+            console.log("FizzBuzz")
             return "FizzBuzz";
         }else if(nameLength % 3 === 0){
-            // alert("Fizz")
+            console.log("Fizz")
             return "Fizz";
         }else if(nameLength % 5 === 0){
-            // alert("Buzz")
+            console.log("Buzz")
             return "Buzz";
         }else{
-            // alert("The length is not divisible by any of the provided values.")
+            console.log("The length is not divisible by any of the provided values.")
             return "The length is not divisible by any of the provided values."
         }
     }else{
@@ -21,5 +21,4 @@ function fizzBuzz(firstname,lastname){
         return "use string values."
     }
 }
-
-fizzBuzz("Fred","44")
+fizzBuzz("Fred","Vuni")
